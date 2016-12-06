@@ -1,5 +1,7 @@
 language: java
 env:
-- BUILD=AntBuildProject
-- BUILD=MavenBuildProject
-script: cd $BUILD && ant test
+- PROJECT=AntBuildProject
+- PROJECT=MavenBuildProject
+- TOOL=ant
+- TOOL=mvn
+script: cd $BUILD && $TOOL test
