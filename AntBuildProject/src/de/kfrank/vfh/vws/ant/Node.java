@@ -69,7 +69,6 @@ public class Node implements Comparable<Node> {
 	
 	/**
 	 * Methode nur zum Test
-	 * TODO in der ESA löschen
 	 */
 	Node getParent() {
 		return parent;
